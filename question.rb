@@ -1,5 +1,7 @@
 class question
 
+  attr_accessor :question, :answer
+
   def initialize(first_number, second_number)
     @first_number = first_number
     @second_number = second_number
